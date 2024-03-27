@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7fc; /* Couleur de fond */
+}
+
+header {
+    background-color: #4d94ff; /* Couleur d'arrière-plan de l'en-tête */
+    padding: 20px;
+    color: #fff; /* Couleur du texte de l'en-tête */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Couleur des liens de navigation */
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content {
+    background-color: #e0f0ff; /* Couleur de fond de la boîte */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.content:hover {
+    transform: translateY(-10px);
+}
+
+.content h2 {
+    color: #4d94ff; /* Couleur du titre */
+}
+
+.content p {
+    color: #333; /* Couleur du texte */
+}
+
+.content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4d94ff; /* Couleur de fond du pied de page */
+    padding: 20px;
+    color: #fff; /* Couleur du texte du pied de page */
+    text-align: center;
+}
